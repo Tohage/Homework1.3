@@ -7,7 +7,7 @@ public class Main {
         int x = 1000;
         System.out.println("На счету у клиента - " + ontheclientsaccount + " p");
         System.out.println("Пополнение счета на - " + phonerecharge + " p");
-        //noinspection ConstantConditions
+
         if (phonerecharge >= 1000) {
             int bonus = phonerecharge / 100;
             System.out.println("Итого на счету - " + (totalamount + bonus) + " p");
